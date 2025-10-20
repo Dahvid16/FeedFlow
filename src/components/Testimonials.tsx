@@ -37,7 +37,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-24 bg-background">
+    <section id="testimonials" className="pt-24 pb-16 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
@@ -83,17 +83,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Trust indicators */}
-        <div className="mt-16 text-center">
-          <p className="text-muted-foreground mb-8">Trusted by leading companies</p>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-            {["TechCorp", "InnovateLabs", "GrowthHub", "StartupXYZ", "CloudNine"].map((company, index) => (
-              <div key={index} className="text-2xl font-bold text-muted-foreground">
-                {company}
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

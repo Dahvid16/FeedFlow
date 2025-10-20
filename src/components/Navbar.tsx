@@ -64,16 +64,16 @@ const Navbar = () => {
               Features
             </button>
             <button
-              onClick={() => scrollToSection("pricing")}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium"
-            >
-              Pricing
-            </button>
-            <button
               onClick={() => scrollToSection("testimonials")}
               className="text-foreground/80 hover:text-foreground transition-colors font-medium"
             >
               Testimonials
+            </button>
+            <button
+              onClick={() => scrollToSection("pricing")}
+              className="text-foreground/80 hover:text-foreground transition-colors font-medium"
+            >
+              Pricing
             </button>
             <button
               onClick={() => scrollToSection("faq")}
@@ -135,16 +135,16 @@ const Navbar = () => {
               Features
             </button>
             <button
-              onClick={() => scrollToSection("pricing")}
-              className="block w-full text-left px-4 py-2 text-foreground/80 hover:text-foreground hover:bg-muted rounded-lg transition-colors"
-            >
-              Pricing
-            </button>
-            <button
               onClick={() => scrollToSection("testimonials")}
               className="block w-full text-left px-4 py-2 text-foreground/80 hover:text-foreground hover:bg-muted rounded-lg transition-colors"
             >
               Testimonials
+            </button>
+            <button
+              onClick={() => scrollToSection("pricing")}
+              className="block w-full text-left px-4 py-2 text-foreground/80 hover:text-foreground hover:bg-muted rounded-lg transition-colors"
+            >
+              Pricing
             </button>
             <button
               onClick={() => scrollToSection("faq")}

@@ -134,16 +134,10 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
 
-        {/* Bottom bar */}
-        <div className="pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} FeedFlow. All rights reserved.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Made with ❤️ for better customer experiences
-          </p>
-        </div>
+      <div className="hidden">
+        <p className="italic">Dahvid</p>
       </div>
     </footer>
   );
