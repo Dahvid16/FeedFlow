@@ -1,18 +1,9 @@
-# Welcome to your Lovable project
+# Welcome to your FeedFlow project
+This project was built as a Task given for Elevvo pathway internship
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8a7f9412-e93e-4ec0-bd5e-01778aa1369a
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/8a7f9412-e93e-4ec0-bd5e-01778aa1369a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+**URL**: https://feedflow-eta.vercel.app/
 
 **Use your preferred IDE**
 
@@ -24,50 +15,121 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+<!-- README for FeedFlow (Vite + React + TypeScript) -->
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# FeedFlow
 
-# Step 3: Install the necessary dependencies.
-npm i
+> A responsive frontend demo built with Vite + React + TypeScript, using shadcn-ui patterns and Tailwind CSS. This repository was used for an internship/task and demonstrates a modern component-driven UI.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Live demo: https://feedflow-eta.vercel.app/ (if available)
+
+## Quick overview
+
+FeedFlow is a frontend application scaffolded with Vite and written in TypeScript + React. It provides a collection of prebuilt UI components under `src/components` suitable for marketing pages, dashboards, and small web apps.
+
+This README explains how to run the project locally, the available scripts, and the key places to look in the codebase.
+
+## Screenshots
+
+![FeedFlow Hero Section](/public/screenshots/hero.png)
+*The landing page hero section with key features and call-to-action.*
+
+![Component Examples](/public/screenshots/components.png)
+*A selection of shadcn-ui based components used throughout the app.*
+
+## Table of contents
+
+- Project status
+- Tech stack
+- Getting started
+- Available scripts
+- Project structure
+- Contributing
+- License
+
+## Project status
+
+- Type: Frontend application (Vite + React + TypeScript)
+- Status: Starter / demo (no backend bundled)
+
+If you want to deploy, build artifacts are produced by `npm run build` and can be served by any static hosting provider.
+
+## Tech stack
+
+- Vite (dev server + build)
+- React 18 + TypeScript
+- Tailwind CSS
+- shadcn-ui component patterns (Radix + Tailwind)
+- React Router
+
+See `package.json` for the full dependency list.
+
+## Getting started
+
+Prerequisites
+
+- Node.js (recommended 18+ or latest LTS)
+- npm or yarn
+
+Clone and run (PowerShell example)
+
+```powershell
+git clone https://github.com/Dahvid16/FeedFlow.git
+cd FeedFlow
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The dev server (Vite) will start and print a local URL (usually http://localhost:5173). Open that in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Build for production
 
-**Use GitHub Codespaces**
+```powershell
+npm run build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This creates an optimized production build in the `dist` folder and serves it locally for a quick check.
 
-## What technologies are used for this project?
+## Available scripts
 
-This project is built with:
+Key scripts from `package.json`:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- npm run dev — start Vite dev server
+- npm run build — build production assets
+- npm run build:dev — build with development mode
+- npm run preview — preview the production build
+- npm run lint — run ESLint
 
-## How can I deploy this project?
+Use `npm run` to list all scripts defined in the package manifest.
 
-Simply open [Lovable](https://lovable.dev/projects/8a7f9412-e93e-4ec0-bd5e-01778aa1369a) and click on Share -> Publish.
+## Project structure (important files)
 
-## Can I connect a custom domain to my Lovable project?
+- src/
+	- main.tsx — app entry
+	- App.tsx — top-level app component and routes
+	- index.css / App.css — Tailwind and app styles
+	- components/ — UI sections and shadcn-ui-based components
+	- hooks/ — custom hooks used across the app
+	- lib/ — utilities
 
-Yes, you can!
+- public/ — static assets
+- package.json — scripts and dependencies
+- vite.config.ts — Vite configuration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Explore `src/components` to see small, focused UI components (cards, navbar, hero, pricing, etc.).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Contributing
+
+This repository is primarily a frontend demo. If you'd like to contribute:
+
+1. Fork the repository and create a branch for your change.
+2. Add a clear, small commit and push your branch.
+3. Open a pull request against `main` with a concise description of your change.
+
+## Notes & next steps
+
+- The README has been refreshed to match the frontend code in this workspace.
+- I can also add screenshots, a CONTRIBUTING guide, or a CI workflow (lint + build) — tell me which you'd prefer next.
+
+## License
