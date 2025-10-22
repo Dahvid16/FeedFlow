@@ -11,12 +11,6 @@ If you want to work locally using your own IDE, you can clone this repo and push
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-<!-- README for FeedFlow (Vite + React + TypeScript) -->
-
 # FeedFlow
 
 > A responsive frontend demo built with Vite + React + TypeScript, using shadcn-ui patterns and Tailwind CSS. This repository was used for an internship/task and demonstrates a modern component-driven UI.
@@ -78,7 +72,6 @@ git clone https://github.com/Dahvid16/FeedFlow.git
 cd FeedFlow
 npm install
 npm run dev
-```
 
 The dev server (Vite) will start and print a local URL (usually http://localhost:5173). Open that in your browser.
 
