@@ -31,10 +31,10 @@ This README explains how to run the project locally, the available scripts, and 
 
 ## Screenshots
 
-![FeedFlow Hero Section](/public/screenshots/hero.png)
+![FeedFlow Hero Section](screenshots/hero.png)
 *The landing page hero section with key features and call-to-action.*
 
-![Component Examples](/public/screenshots/components.png)
+![Component Examples](screenshots/components.png)
 *A selection of shadcn-ui based components used throughout the app.*
 
 ## Table of contents
